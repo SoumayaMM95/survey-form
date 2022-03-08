@@ -1,0 +1,72 @@
+<html>
+  
+<header>
+  <h1 id="title">Form Example</h1>
+  <p id="description">This a survey form example </p>
+</header>
+<main>
+   <form id="survey-form" action="">
+     
+     <div id="name-div" class="form-group">
+      <div>
+        <label for="name" id="name-label">Name</label>
+      </div>
+      <input type="text" id="name" placeholder="Name" required>
+    </div>
+    
+    <div id="email-div" class="form-group">
+      <div>
+        <label for="email" id="email-label">Email</label>
+      </div>
+      <input type="email" id="email" placeholder="yourmail@example.com" required>
+    </div>
+     
+     <div id="number-div" class="form-group">
+       <div>
+         <label for="number" id="number-label">Age</label>
+       </div>
+      <input type="number" id="number"  placeholder="Current age" min="12" max="100">
+     </div>
+     
+     <div id="dropdown-div" class="form-group">
+      <div>
+        <label for="dropdown" id="number-label">You are currently:</label>
+      </div>
+      <select id="dropdown">
+        <option>High School Student</option>
+        <option>University Student</option>
+        <option>Self-taught Student</option>
+        <option>Employed</option>
+        <option>Freelancer</option>
+      </select>
+    </div>
+     
+     <div id="radioBtn-div" class="form-group">
+      <div><label>Gender</label></div>
+       <label ><input type="radio" name="male-female" value="Male" class="input-radio"> Male</label><br>
+      <label><input type="radio" name="male-female" value="Female" class="input-radio"> Female</label>
+     </div>
+     
+     <div id="checkbox-div" class="form-group">
+      <div><label>Hobbies</label></div>
+       <label for="Swimming"><input type="checkbox" value="Swimming" id="Swimming" class="input-radio"> Swimming</label>
+      <br>
+      <label for="Reading"><input type="checkbox" value="Reading" id="Reading"class="input-radio"> Reading</label>
+      <br>
+       <label for="Running" class="label-radio"><input type="checkbox" value="Running" id="Running"class="input-radio"> Running</label>
+      <br>
+     </div>
+     
+     <div id="textarea-div" class="form-group">
+      <div><label for="Add-info">Additional Information</label></div>
+      <textarea class="form-control" id="Add-info" rows="6"></textarea>
+    </div>
+     
+     <div class="form-group">
+       <button class="submit-btn" id="submit" type="submit">Submit</button>
+     </div>
+     
+   </form>
+</main>
+  
+</html>

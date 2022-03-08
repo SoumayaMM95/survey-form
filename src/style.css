@@ -1,0 +1,62 @@
+header {
+  max-width: 1000px;
+  margin: auto;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+  border-radius: 10px;
+  background: hsl(203, 75%, 15%);
+}
+
+#survey-form{
+  margin-left: 100px;
+}
+
+.form-group{
+  margin: 10px 0px 10px 25px;
+}
+
+label{
+  font-size: 20px;
+/*   font-weight: ; */
+  color: white;
+}
+
+/* .label-radio{
+  font-weight: lighter;
+} */
+
+input, select{
+  margin: 10px 5px 10px 0px;
+  border-radius: 5px;
+  height: 30px;
+  width: 700px;
+}
+
+textarea{
+  margin: 10px 5px 10px 0px;
+  border-radius: 5px;
+  width: 700px;
+}
+
+.input-radio{
+  margin: 0px 0px 10px 0px;
+  height: 10px;
+  width: 60px;
+}
+
+.submit-btn{
+  font-size:18px;
+  font-weight:bold;
+  border-radius: 5px;
+  padding: 4px 2px 4px 2px;
+  margin-left:15px;
+  background: linear-gradient(#d79265, #ffcccc, #5c6b63);
+  
+}
+.submit-btn:hover{
+  transform: scale(1.2);
+}
